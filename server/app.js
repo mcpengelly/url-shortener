@@ -47,7 +47,6 @@ app.post('/api/shorten', (req, res) => {
 
 			release();
 			if(result && result.rows) {
-				// send back short url for display on front end
 				res.send(result);
 			}
 		});

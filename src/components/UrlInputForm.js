@@ -1,6 +1,8 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
+// import ExtendedPropTypes from "extended-proptypes";
+// ExtendedPropTypes(PropTypes);
 
-export default class UrlInputForm extends Component {
+class UrlInputForm extends Component {
 	constructor(props){
 		super(props);
 		this.state = { text: '' };
@@ -22,3 +24,9 @@ export default class UrlInputForm extends Component {
 		);
 	}
 }
+
+// UrlInputForm.propTypes = {
+// 	text: PropTypes.stringMatching(/^sadman$/).isRequired
+// };
+
+export default UrlInputForm;
