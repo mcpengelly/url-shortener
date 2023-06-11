@@ -4,8 +4,6 @@
 
 in your terminal:
 
-TODO: setup database instructions
-
 clone the repo
 ```
 cd url-shortener
@@ -15,3 +13,7 @@ node server
 ```
 
 then navigate to the url listed in your terminal
+
+TODO: 
+- provide database instructions
+- SQL queries in this code are vulnerable to injection
